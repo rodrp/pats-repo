@@ -1,4 +1,5 @@
-def sum_numbers(*num):
-    return sum(num)
+name = "Patty"
+lastName = "Polanco"
 
-print (sum_numbers(2,2,2,2,2))
+greeting = "Hi " + name + " " + lastName + " How are doing today?"
+print (greeting)
